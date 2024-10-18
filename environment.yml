@@ -1,0 +1,21 @@
+name: mphilDIS
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - ipython
+  - jupyter
+  - numpy
+  - scipy
+  - matplotlib
+  - ipympl
+  - iminuit
+  - pandas
+  - resample
+  - seaborn
+  - scikit-learn
+  - tabulate
+  - tqdm
+  - uncertainties
+  #- gitlab
