@@ -15,7 +15,6 @@ class geometric_Brownian_motion:
         self.sigma = sigma
         self.y_0 = y_0
 
-    def coeficient(self):
-        return self.mu - (self.sigma**2)/2
+    
     
     
