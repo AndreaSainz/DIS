@@ -1,4 +1,4 @@
-class geometric_Brownian_motion:
+class GeometricBrownianMotion:
     def __init__(self, mu, sigma, y_0):
         r"""
         Initialize a Geometric_Brownian_motion instance.
