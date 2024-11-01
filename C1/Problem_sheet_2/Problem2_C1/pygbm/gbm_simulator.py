@@ -37,17 +37,17 @@ class GBMSimulator(geometric_Brownian_motion):
         """
         np.random.seed(29072000)
         dt = T / N  
-        dW = np.sqrt(dt) * np.random.normal(size=N) # N-list with N(0,dt)
+        dW = np.sqrt(dt) * np.random.normal(size= N-1) # N-list with N(0,dt)
+        dW = np.insert(dW, 0, 0)
         Bmlist = np.cumsum(dW)  # Accumulative sum
         return Bmlist
     
     
     def simulate_path(self,T,N):
         Bmlist = GBMSimulator.Brownian_motion(T, N)
-        coef = GBMSimulator.coeficient(self)
+        coef = self.coeficient()
         t = np.linspace(0,T,N)
-        y_t = self.y_0*np.exp(coef*t+self.sigma*Bmlist)
-        
+        y_t = self.y_0 *np.exp(coef*t+self.sigma*Bmlist)
         return t, y_t
     
 
