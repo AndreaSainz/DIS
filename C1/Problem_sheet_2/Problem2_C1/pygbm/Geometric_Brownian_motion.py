@@ -1,9 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
 class geometric_Brownian_motion:
     def __init__(self, mu, sigma, y_0):
-        """
+        r"""
         Initialize a Geometric_Brownian_motion instance.
 
         Parameters:

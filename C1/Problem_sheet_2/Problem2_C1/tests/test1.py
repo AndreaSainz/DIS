@@ -1,5 +1,5 @@
-from pygbm . gbm_simulator import GBMSimulator
-import matplotlib . pyplot as plt
+from pygbm.gbm_simulator import GBMSimulator
+import matplotlib.pyplot as plt
 
 # Parameters for GBM
 y0 = 1.0
@@ -9,13 +9,13 @@ T = 1.0
 N = 100
 
 # Initialize simulator
-simulator = GBMSimulator (y0 , mu , sigma )
+simulator = GBMSimulator(y0 , mu , sigma )
 # Simulate path
-t_values , y_values = simulator . simulate_path (T, N)
+t_values , y_values = simulator.simulate_path (T, N)
 # Plot the simulated path
-plt . plot ( t_values , y_values , label ="GBM Path ")
-plt . xlabel (" Time ")
-plt . ylabel ("Y(t)")
-plt . title (" Simulated Geometric Brownian Motion Path ")
-plt . legend ()
-plt . show ()
+plt.plot( t_values , y_values , label ="GBM Path ")
+plt.xlabel(" Time ")
+plt.ylabel("Y(t)")
+plt.title(" Simulated Geometric Brownian Motion Path ")
+plt.legend()
+plt.show()
