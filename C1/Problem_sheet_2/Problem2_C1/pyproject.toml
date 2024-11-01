@@ -27,6 +27,10 @@ dependencies = [
     "matplotlib"
 ]
 
+[project.scripts]
+pygbm = "pygbm.cli:main"
+
+
 [project.urls]
 "Documentation" = "https://your-readthedocs-url-here"
 "Source" = "https://github.com/yourusername/companies_package"

@@ -2,11 +2,16 @@ README.md
 pyproject.toml
 pygbm/Geometric_Brownian_motion.py
 pygbm/__init__.py
+pygbm/cli.py
 pygbm/gbm_simulator.py
 pygbm/version.py
 pygbm.egg-info/PKG-INFO
 pygbm.egg-info/SOURCES.txt
 pygbm.egg-info/dependency_links.txt
+pygbm.egg-info/entry_points.txt
 pygbm.egg-info/requires.txt
 pygbm.egg-info/top_level.txt
+pygbm/__pycache__/Geometric_Brownian_motion.cpython-312.pyc
+pygbm/__pycache__/__init__.cpython-312.pyc
+pygbm/__pycache__/gbm_simulator.cpython-312.pyc
 tests/test1.py
