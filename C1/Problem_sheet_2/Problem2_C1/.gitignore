@@ -1,0 +1,36 @@
+.DS_Store
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Sphinx
+_build/
