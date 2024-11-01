@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]  # Build requirements
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygbm" # name of the package must match the core folder name
+dynamic = ["version"]
+description = "A Python package for solvin the Geometric Brownian motion."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Andrea", email = "as3628@cam.ac.uk" },
+]
+keywords = ["Geometric Brownian motion", "analytical"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Mathematicians, physicists",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries"
+]
+
+# Runtime dependencies
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.urls]
+"Documentation" = "https://your-readthedocs-url-here"
+"Source" = "https://github.com/yourusername/companies_package"
+"Issues" = "https://github.com/yourusername/companies_package/issues"
+
+
+[tool.setuptools_scm]
+write_to = "pygbm/version.py"  # Where to write the dynamic version
+
+[tool.setuptools.packages.find]
+where = ["."]
