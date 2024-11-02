@@ -1,7 +1,7 @@
 from pygbm.Geometric_Brownian_motion import GeometricBrownianMotion
 import numpy as np
 
-class GBMSimulator(GeometricBrownianMotionn):
+class GBMSimulator(GeometricBrownianMotion):
     r"""
 
     This class is the daughter of geometric_Brownian_motion instance and is going to calculate analytically the Geometric Brownian motion. 
