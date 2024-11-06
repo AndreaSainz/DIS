@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pygbm
-Version: 0.0.0b0
+Version: 0.0.0b1.dev8+g088cb02.d20241106
 Summary: A Python package for solvin the Geometric Brownian motion.
 Author-email: Andrea <as3628@cam.ac.uk>
 Project-URL: Documentation, https://your-readthedocs-url-here
@@ -16,3 +16,31 @@ Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: matplotlib
+
+# Company Package
+
+<description of the package>
+
+## Features
+
+<description of the features>
+
+## Installation
+
+<description of the installation>
+
+## Usage
+
+<baseline example of usage>
+
+## Documentation
+
+Link to the [documentation page](https://your-readthedocs-url-here).
+
+## Contributing
+
+Contributions via pull requests are welcome!
+
+## License
+
+<description of the license>

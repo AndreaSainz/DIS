@@ -4,6 +4,11 @@
 README.md
 gbm_plot.png
 pyproject.toml
+requirements.txt
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
 pygbm/.DS_Store
 pygbm/Geometric_Brownian_motion.py
 pygbm/__init__.py
